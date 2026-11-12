@@ -1,6 +1,6 @@
 {
   "version": "week01-v2",
-  "created_at": "2026-11-12T17:35:05+08:00",
+  "created_at": "2026-11-12T17:43:35+08:00",
   "scope": "Vault snapshot for Week 01. Weeks 02-11 contain scaffolding only.",
   "manifest_excludes_itself": true,
   "files": [
@@ -46,8 +46,8 @@
     },
     {
       "path": "01-课程计划/第01-11周任务与验收清单.md",
-      "bytes": 10030,
-      "sha256": "1645941916d924d20abdfaf2be01ccd21ebee31ce1fb6e4c03164bc3da2058bb"
+      "bytes": 9968,
+      "sha256": "870ff63cfde9c2433cde35b41e2dfcece4af344fd659b512cdc826af8ef78fd8"
     },
     {
       "path": "01-课程计划/课程来源.md",
@@ -171,8 +171,8 @@
     },
     {
       "path": "06-课程成果/第01周/evidence/验收说明.md",
-      "bytes": 4378,
-      "sha256": "40aba1e0e0e656463b0b0f8e9a8b03aaa4db3b2bc7f7c3cdbb4113818ecfd3ea"
+      "bytes": 4314,
+      "sha256": "232bc0db4934e6db54a3606feee877441ec09e9b370738ea9e441d5cb03b7d26"
     },
     {
       "path": "06-课程成果/第01周/output/week01-diagram.png",
