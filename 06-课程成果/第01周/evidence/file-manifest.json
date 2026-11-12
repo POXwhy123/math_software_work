@@ -1,0 +1,478 @@
+{
+  "version": "week01-v2",
+  "created_at": "2026-11-12T17:35:05+08:00",
+  "scope": "Vault snapshot for Week 01. Weeks 02-11 contain scaffolding only.",
+  "manifest_excludes_itself": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 211,
+      "sha256": "01e74102eba697b3fd4a84a5763d1a17a538531d42aafacde67f40b9a055dc3f"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 637,
+      "sha256": "2b44b53e4e85c1099ed9191aa6e4f89ebaa76559dd2aa67e0a697f63821c6c35"
+    },
+    {
+      "path": ".obsidian/app.json",
+      "bytes": 62,
+      "sha256": "b75017b319807220ba3369e107e5cbbb3fa6740ddcd66372adc0daeed59736ef"
+    },
+    {
+      "path": ".obsidian/core-plugins.json",
+      "bytes": 115,
+      "sha256": "0a82c9ec0256254871516ec91ad92f8d3b7a95539f64decd2b3d74cf55f215f1"
+    },
+    {
+      "path": ".obsidian/templates.json",
+      "bytes": 89,
+      "sha256": "0aead52d0f6c19a9f208946c17282e75b05f3d7327ad677c98031d08eacbd087"
+    },
+    {
+      "path": "00-首页.md",
+      "bytes": 2554,
+      "sha256": "e6ba2d7697957fc17992c8af3d8ada5cc42647f2bf7f69f5a2474373a2f0abb1"
+    },
+    {
+      "path": "01-课程计划/个人学习档案.md",
+      "bytes": 1855,
+      "sha256": "45cf0d23776de3b543611b2887bb4625234a8af2619c0730698f86c43f1f01bf"
+    },
+    {
+      "path": "01-课程计划/本地环境检查.md",
+      "bytes": 7132,
+      "sha256": "0146cda5c380626d93dcc6f2117f6dfe6a79f2518f3d3eb71ca224012a3853ae"
+    },
+    {
+      "path": "01-课程计划/第01-11周任务与验收清单.md",
+      "bytes": 10030,
+      "sha256": "1645941916d924d20abdfaf2be01ccd21ebee31ce1fb6e4c03164bc3da2058bb"
+    },
+    {
+      "path": "01-课程计划/课程来源.md",
+      "bytes": 2118,
+      "sha256": "f6944afb15061d989993354733253a495af7a26a75b021bc1a27f3ed903d1c0c"
+    },
+    {
+      "path": "02-每周笔记/第01周.md",
+      "bytes": 3622,
+      "sha256": "14abdb9da8805edb7ef4c20b6c8ba6069edbe3b56fb544b4d7089b3a0e1368e2"
+    },
+    {
+      "path": "02-每周笔记/第02周.md",
+      "bytes": 1647,
+      "sha256": "2108d019224e336559dc72a2b9b9441821761245f177ee7992c03d60d5e41b0c"
+    },
+    {
+      "path": "02-每周笔记/第03周.md",
+      "bytes": 1656,
+      "sha256": "b5e11c84ce2a57aa0af9a5991128b7f7edc39557f011f3eefcc85b616547613e"
+    },
+    {
+      "path": "02-每周笔记/第04周.md",
+      "bytes": 1690,
+      "sha256": "889319514676a9fdd5cd9a438b7c252d85efedcc3a825c1b16c0e6ffa3b5db62"
+    },
+    {
+      "path": "02-每周笔记/第05周.md",
+      "bytes": 1606,
+      "sha256": "674069b2816596f0f1a6f27656239bd7fdd96005106ec8b6622b94fce6610568"
+    },
+    {
+      "path": "02-每周笔记/第06周.md",
+      "bytes": 1665,
+      "sha256": "bf224b86c61db90d61eff579e4a4e025aa70143ba56f0a045be178af359b68df"
+    },
+    {
+      "path": "02-每周笔记/第07周.md",
+      "bytes": 1661,
+      "sha256": "9d28d5cf2b9fd10ac103c8b3bcc625374def49efe5db1cebe08d01cc026cfb21"
+    },
+    {
+      "path": "02-每周笔记/第08周.md",
+      "bytes": 1580,
+      "sha256": "06c8307b6a2c07ca74aa88158dc79905318fced52ac613f3e00c513b6c4196e8"
+    },
+    {
+      "path": "02-每周笔记/第09周.md",
+      "bytes": 1693,
+      "sha256": "085c56c1d83f0bb6d70ddb050949e9dba8dbf88b4085a2a6333c6b75f150da58"
+    },
+    {
+      "path": "02-每周笔记/第10周.md",
+      "bytes": 1567,
+      "sha256": "0389c0f22a88f4284d30a78bc501dea299a2cc25f3bc5b98c56f893a836412c4"
+    },
+    {
+      "path": "02-每周笔记/第11周.md",
+      "bytes": 1753,
+      "sha256": "04bec9f23b1c499f63d513548083abb1383adb75951aeacf95fa5759ff8e7323"
+    },
+    {
+      "path": "03-专题知识/GeoGebra.md",
+      "bytes": 2218,
+      "sha256": "43b7a94a286e8878a77edbdc821308b6af55bb3bebb6b70f12c35b0e11a06ff3"
+    },
+    {
+      "path": "03-专题知识/LaTeX.md",
+      "bytes": 601,
+      "sha256": "e977f1bc1e76df2c6543c0cdd0855758d2b367d4453fbcede1920068c63009c0"
+    },
+    {
+      "path": "03-专题知识/Mathematica.md",
+      "bytes": 583,
+      "sha256": "a104445f55bca4d9eb34a50fcfaacec34cbf8977749534df9f4a045dd2e4e13b"
+    },
+    {
+      "path": "04-案例卡/README.md",
+      "bytes": 374,
+      "sha256": "fcca40ac4d13eec6ebe147e4a6b51cf53db690fcc1100085bf43c7126b5e9b18"
+    },
+    {
+      "path": "05-错误与复盘/ENV-001-未发现TeX编译命令.md",
+      "bytes": 881,
+      "sha256": "242867964ec7f4b4cf4ead7782be3209eb5c3f4c0ba3c9b78330ed80cc46a71f"
+    },
+    {
+      "path": "05-错误与复盘/README.md",
+      "bytes": 606,
+      "sha256": "0909d698ecb458994c8f0c17266edf6c8fee6f9a4d2e3fb2ccf7e3efe9ad582d"
+    },
+    {
+      "path": "05-错误与复盘/W01-001-浏览器会话失效与恢复.md",
+      "bytes": 1132,
+      "sha256": "a0d1d87a8a18ccc932f92ea5203df96eb0287eb5636c1c0a2159889d5c78f1ca"
+    },
+    {
+      "path": "06-课程成果/README.md",
+      "bytes": 1048,
+      "sha256": "98ea062b56611912879e3a01cd69a05699e3c7ed39e951c1d0ef56a562354879"
+    },
+    {
+      "path": "06-课程成果/第01周/README.md",
+      "bytes": 1556,
+      "sha256": "a2d9d6136351cc5cb6256ef8b3f0eb90d43acfbab81265ff20a26e84b29372e1"
+    },
+    {
+      "path": "06-课程成果/第01周/evidence/browser-check.json",
+      "bytes": 9754,
+      "sha256": "f10f5a621bb0160f21c0b9c7ae698ef969f44eed2af1d8860d6106b437929b53"
+    },
+    {
+      "path": "06-课程成果/第01周/evidence/disk-reopen-check.json",
+      "bytes": 1430,
+      "sha256": "89f635f891d078f3ca1636bbacbd7de34607785d40652eb16c83930311c0d85f"
+    },
+    {
+      "path": "06-课程成果/第01周/evidence/selfcheck.txt",
+      "bytes": 603,
+      "sha256": "1723755ce2e43922b8fe7f13df659d5ba0ab50d9180c87c40ea8e8e83f796829"
+    },
+    {
+      "path": "06-课程成果/第01周/evidence/验收说明.md",
+      "bytes": 4378,
+      "sha256": "40aba1e0e0e656463b0b0f8e9a8b03aaa4db3b2bc7f7c3cdbb4113818ecfd3ea"
+    },
+    {
+      "path": "06-课程成果/第01周/output/week01-diagram.png",
+      "bytes": 59614,
+      "sha256": "48b626c785ef7ab20cacdc0ddc9bbf53c2fae3b7caf18a882ee90753bd5a32ba"
+    },
+    {
+      "path": "06-课程成果/第01周/output/week01-disk-drag.png",
+      "bytes": 72057,
+      "sha256": "b31a80422b1b36b160678221412ad587cb2ab89340edac20f0d68b02d637ebf8"
+    },
+    {
+      "path": "06-课程成果/第01周/output/week01-disk-open.png",
+      "bytes": 72676,
+      "sha256": "100b90b341bffcc83ed0b307c19a22889a5d81116f3a1819b8a1907ddfade051"
+    },
+    {
+      "path": "06-课程成果/第01周/output/week01-drag-A.png",
+      "bytes": 72057,
+      "sha256": "b31a80422b1b36b160678221412ad587cb2ab89340edac20f0d68b02d637ebf8"
+    },
+    {
+      "path": "06-课程成果/第01周/output/week01-drag-B.png",
+      "bytes": 71272,
+      "sha256": "4c574178910c9b2c9ecee9b74a35ba6e47d300bea0ee1b2f799a74b8e46147df"
+    },
+    {
+      "path": "06-课程成果/第01周/output/week01-initial.png",
+      "bytes": 69434,
+      "sha256": "90571d38bf77d83ef2abe1ba99e61a32ea333dca827828be47dfe023f6eb6f26"
+    },
+    {
+      "path": "06-课程成果/第01周/source/construction.txt",
+      "bytes": 77,
+      "sha256": "14929f9105fedec119d5d49ea3e14233d7ee42952124780e98ba8b0fda50369b"
+    },
+    {
+      "path": "06-课程成果/第01周/source/week01-basic-objects.ggb",
+      "bytes": 4587,
+      "sha256": "0f053834a06d7fc65cf9e61aed3a85a07b0896d063bedb37428e1258cbd778bf"
+    },
+    {
+      "path": "06-课程成果/第02周/README.md",
+      "bytes": 872,
+      "sha256": "6e52368f9b8330d708749ed57fe7004ca5a092f59f8d811200fd45d30c22bbe7"
+    },
+    {
+      "path": "06-课程成果/第02周/evidence/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第02周/output/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第02周/source/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第03周/README.md",
+      "bytes": 887,
+      "sha256": "278d14522beaec076cd1d1b4a9f0975bb459845f9cff80787b4dbc8a2eeee061"
+    },
+    {
+      "path": "06-课程成果/第03周/evidence/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第03周/output/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第03周/source/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第04周/README.md",
+      "bytes": 893,
+      "sha256": "a4cdb5503ffe4f795c97ccf6f810d908600a909e9beeacfef62656669987fb3f"
+    },
+    {
+      "path": "06-课程成果/第04周/evidence/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第04周/output/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第04周/source/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第05周/README.md",
+      "bytes": 875,
+      "sha256": "b02094aa0de8dde0937346b2881b5230ce2c41927aa1369cc5483b5e1dd0f1bd"
+    },
+    {
+      "path": "06-课程成果/第05周/evidence/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第05周/output/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第05周/source/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第06周/README.md",
+      "bytes": 860,
+      "sha256": "6dbdb0aff5c9228b5903cd0556f8f8d8ba25975f675a54a2176eb60e94841a34"
+    },
+    {
+      "path": "06-课程成果/第06周/evidence/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第06周/output/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第06周/source/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第07周/README.md",
+      "bytes": 892,
+      "sha256": "2dd30377500da4379f355954ea30cacb794371d4e7c4323e3bd14b2724b55bf8"
+    },
+    {
+      "path": "06-课程成果/第07周/evidence/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第07周/output/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第07周/source/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第08周/README.md",
+      "bytes": 880,
+      "sha256": "7a282e148823037789ed63b7155090ca013b23f2e7e6977bf373aa6d6fc6aa69"
+    },
+    {
+      "path": "06-课程成果/第08周/evidence/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第08周/output/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第08周/source/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第09周/README.md",
+      "bytes": 921,
+      "sha256": "0af4aabc90ad079939b99ccdceda1b7fec00a3568449feb3e9590bc77aa31800"
+    },
+    {
+      "path": "06-课程成果/第09周/evidence/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第09周/output/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第09周/source/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第10周/README.md",
+      "bytes": 872,
+      "sha256": "9381d07473616663a7312005a4188a8c90c6a7f1480e5256d360d3ae386937e0"
+    },
+    {
+      "path": "06-课程成果/第10周/evidence/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第10周/output/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第10周/source/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第11周/README.md",
+      "bytes": 944,
+      "sha256": "4e322bc4612b538d3681f71fd9addfe3623d37f6a1c7283e729d28c74dea51de"
+    },
+    {
+      "path": "06-课程成果/第11周/evidence/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第11周/output/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "06-课程成果/第11周/source/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "07-笔记模板/README.md",
+      "bytes": 378,
+      "sha256": "d068f7eaa079de202a7ed1778bcf9cd73a51ac08bedc1938499bc024e8739bd1"
+    },
+    {
+      "path": "07-笔记模板/案例卡模板.md",
+      "bytes": 750,
+      "sha256": "4c07a22228347de68c630674b038274e339da7839d6c81b094d09a3b487ebd08"
+    },
+    {
+      "path": "07-笔记模板/每周笔记模板.md",
+      "bytes": 896,
+      "sha256": "af86aadde1d555143d2d0b2bd792ce9dfc4599ceacc49c51b56b2c20b94daf6a"
+    },
+    {
+      "path": "07-笔记模板/错误记录模板.md",
+      "bytes": 506,
+      "sha256": "18f6709003ad8a6e7deae770c3b6108741271333d4adba3d22cce62b58a94b65"
+    },
+    {
+      "path": "07-笔记模板/验收记录模板.md",
+      "bytes": 574,
+      "sha256": "3474a1e942961813250f1e8bf78296a87e6a3541b447ec06f0a989867323190e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2990,
+      "sha256": "0e77cb1e230255e3055293269efe1e0322dfc87b1d72e02f81ba9112b0e87d09"
+    },
+    {
+      "path": "tools/check_environment.py",
+      "bytes": 7519,
+      "sha256": "5b7560f261dd89785ff1904638f50040d64ba31aca5ced627e30bcc17cd02ffb"
+    },
+    {
+      "path": "tools/check_structure.py",
+      "bytes": 2888,
+      "sha256": "2412320952e0488fa83e78e54c47e413466b2514a19c2af8ea309243823b8f35"
+    },
+    {
+      "path": "tools/package_week01.py",
+      "bytes": 2248,
+      "sha256": "c56e6fdba31ff5712fbca700b7b518ec063befff0713955b297e83b3966a6535"
+    },
+    {
+      "path": "tools/validate_week01.py",
+      "bytes": 4515,
+      "sha256": "71d1bc299374e7fcafba72d8ac70c253c82d2227d842279466fa378ca1905a29"
+    },
+    {
+      "path": "tools/week01_browser_check.js",
+      "bytes": 6624,
+      "sha256": "363c195f78a4c5b86627eaae32788bc9e882caede9c5d857dc3ff28a9c9e6c82"
+    },
+    {
+      "path": "tools/week01_reopen_check.py",
+      "bytes": 5493,
+      "sha256": "d57e869d5892bfe8453f0b35b0ed7202c9d0c9884191578f366f941f3d204dc9"
+    }
+  ]
+}

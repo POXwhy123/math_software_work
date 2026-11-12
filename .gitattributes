@@ -1,0 +1,13 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.tex text eol=lf
+*.bib text eol=lf
+*.ggb binary
+*.pdf binary
+*.png binary
+*.nb text
+*.wl text eol=lf
+*.wls text eol=lf
+selfcheck.txt text eol=lf

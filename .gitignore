@@ -1,0 +1,40 @@
+# Obsidian device state and third-party plugins
+.obsidian/workspace*.json
+.obsidian/cache/
+.obsidian/plugins/
+.obsidian/appearance.json
+.trash/
+# Machine-specific checks, credentials and temporary files
+.local/
+.playwright-cli/
+.playwright/
+output/playwright/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+Thumbs.db
+.DS_Store
+~$*
+# TeX intermediate files; keep source, final PDF, .bib and curated evidence
+*.aux
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.xdv
+# Build directories may contain raw machine paths; copy relevant logs to evidence
+**/build/

@@ -1,0 +1,75 @@
+{
+  "checked_at": "2026-11-12T08:28:18.645Z",
+  "source": "source/week01-basic-objects.ggb",
+  "source_sha256": "0f053834a06d7fc65cf9e61aed3a85a07b0896d063bedb37428e1258cbd778bf",
+  "app": "GeoGebra Classic web",
+  "api_version": "5.4.936.0",
+  "method": "Fresh browser session; read .ggb from disk; load via official setBase64 API",
+  "initial": {
+    "A": [
+      -2,
+      1
+    ],
+    "B": [
+      4,
+      3
+    ],
+    "M": [
+      1,
+      2
+    ],
+    "s": 6.324555320336759,
+    "circle": "c: (x - 1)² + (y - 2)² = 10",
+    "definitions": {
+      "s": "Segment[A, B]",
+      "M": "Midpoint[A, B]",
+      "c": "Circle[M, A]"
+    },
+    "independent": {
+      "A": true,
+      "B": true,
+      "M": false,
+      "s": false,
+      "c": false
+    }
+  },
+  "drag": {
+    "from": {
+      "x": 611,
+      "y": 510.8333333333333
+    },
+    "to": {
+      "x": 536.6666666666666,
+      "y": 436.49999999999994
+    },
+    "after": {
+      "A": [
+        -3,
+        2
+      ],
+      "B": [
+        4,
+        3
+      ],
+      "M": [
+        0.5,
+        2.5
+      ],
+      "s": 7.0710678118654755,
+      "circle": "c: (x - 0.5)² + (y - 2.5)² = 12.5",
+      "definitions": {
+        "s": "Segment[A, B]",
+        "M": "Midpoint[A, B]",
+        "c": "Circle[M, A]"
+      },
+      "independent": {
+        "A": true,
+        "B": true,
+        "M": false,
+        "s": false,
+        "c": false
+      }
+    }
+  },
+  "passed": true
+}

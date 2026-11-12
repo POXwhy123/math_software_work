@@ -1,0 +1,5 @@
+A = (-2, 1)
+B = (4, 3)
+s = Segment(A, B)
+M = Midpoint(A, B)
+c = Circle(M, A)

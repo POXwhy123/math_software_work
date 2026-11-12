@@ -1,0 +1,7 @@
+PASS: native .ggb ZIP CRC, five objects, construction dependencies and initial coordinates
+PASS: seven recorded browser states and two real mouse drags; maximum numerical residual 1.7763568394002505e-15
+PASS: fresh-session disk reload evidence matches the current source SHA-256 and expected drag result
+PASS: 6 PNG files have valid signatures and nontrivial dimensions (visual review is separate)
+Source SHA-256: 0f053834a06d7fc65cf9e61aed3a85a07b0896d063bedb37428e1258cbd778bf
+Limits: checks stored evidence, not a new browser execution; desktop GeoGebra and Obsidian GUI remain manual.
+RESULT: PASS.
