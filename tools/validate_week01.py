@@ -8,7 +8,7 @@ import sys
 import xml.etree.ElementTree as ET
 import zipfile
 
-from course_paths import WEEK01_EVIDENCE, WEEK01_PREVIEWS, WEEK01_SOURCE
+from course_paths import VAULT, WEEK01_EVIDENCE, WEEK01_PREVIEWS, WEEK01_SOURCE
 
 
 def validate():
@@ -52,6 +52,7 @@ def validate():
         assert drag['moved'] is True and drag['target_error']<0.15
     lines.append(f'PASS: seven recorded browser states and two real mouse drags; maximum numerical residual {max_error:.17g}')
     disk=json.loads((WEEK01_EVIDENCE/'disk-reopen-check.json').read_text(encoding='utf-8'))
+    assert disk['source'] == WEEK01_SOURCE.relative_to(VAULT).as_posix(), 'Wrong source path in reload evidence'
     assert disk['passed'] is True and disk['source_sha256']==sha
     assert disk['initial']['A']==[-2,1] and disk['initial']['M']==[1,2]
     assert disk['drag']['after']['A']==[-3,2] and disk['drag']['after']['M']==[0.5,2.5]

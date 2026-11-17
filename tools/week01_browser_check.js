@@ -44,7 +44,7 @@ async (page) => {
     await download.saveAs(vault+filename);
   };
   const saved=await page.evaluate(()=>ggbApplet.getBase64());
-  await downloadData(saved,'01-GeoGebra/第01周/week01-basic-objects.ggb','application/vnd.geogebra.file');
+  await downloadData(saved,'01-GeoGebra/第01周/第1周-基础对象.ggb','application/vnd.geogebra.file');
   await downloadData(await page.evaluate(()=>ggbApplet.getPNGBase64(1,false,96)),'04-展示材料/第01周/图片/week01-diagram.png','image/png');
   for(const step of [{name:'A',target:[-3,2],screenshot:'week01-drag-A.png'},{name:'B',target:[3,-1],screenshot:'week01-drag-B.png'}]) {
     const coords=await page.evaluate(({name,target})=>{
