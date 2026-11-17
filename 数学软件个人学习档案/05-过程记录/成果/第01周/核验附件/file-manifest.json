@@ -1,6 +1,6 @@
 {
   "version": "week01-v2-style",
-  "created_at": "2026-11-17T15:45:36+08:00",
+  "created_at": "2026-11-17T15:48:27+08:00",
   "scope": "Vault snapshot for Week 01. Weeks 02-11 contain scaffolding only.",
   "manifest_excludes_itself": true,
   "files": [
@@ -121,8 +121,8 @@
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/00-首页.md",
-      "bytes": 3599,
-      "sha256": "7df8d4184c1117f40c43ca5ded3acc1dd9285038079366a9b664c9cb8338165c"
+      "bytes": 3581,
+      "sha256": "0d4e8abd7b1537c4a9cb102d3c815a3ca7df8dab53f10e18e4418209d9ab1b34"
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/专题知识/GeoGebra.md",
@@ -141,8 +141,8 @@
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/成果/第01周/README.md",
-      "bytes": 1403,
-      "sha256": "4032f078ee9f393b72074adb42d9476878c13a159036d90fbb91a10f19012f18"
+      "bytes": 1406,
+      "sha256": "a05ca457661a61708f98d2475d3ed1f3ea83a2f00626e6d6806e8708546c594c"
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/成果/第01周/构造命令.md",
@@ -166,8 +166,8 @@
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/成果/第01周/验收说明.md",
-      "bytes": 5128,
-      "sha256": "b7b884fda237c0d4ccb2528131a6f2a289fa3ed201ef8c03f8360d1d25adfb8f"
+      "bytes": 5172,
+      "sha256": "b5ee9aa6fd502b8c67b9dfb97999670621b86604814d30d9fda7672d8579bea2"
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/成果/第02周/README.md",
@@ -316,8 +316,8 @@
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/课程计划/第01-11周任务与验收清单.md",
-      "bytes": 10593,
-      "sha256": "52bf7cfd488ae44fed796dbb48f19f202f6f59559280dabca0defda3eba99068"
+      "bytes": 10613,
+      "sha256": "cf91682610aec487244ab4aa513a666a2100908b92474cd2cf7e21917c7b42ae"
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/课程计划/课程来源.md",
