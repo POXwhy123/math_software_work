@@ -15,9 +15,11 @@
 | --- | --- |
 | `01-GeoGebra/` | GeoGebra 的 .ggb 源文件 |
 | `02-计算实验/` | 计算步骤、命令和结果的 Obsidian 笔记 |
-| `03-LaTeX/` | LaTeX 的 .tex 源文件 |
+| `03-LaTeX/` | 在网页版 TeXbrain 编写和编译的 .tex 源文件 |
 | `04-展示材料/` | 展示笔记及其图片等附件 |
 | `05-过程记录/` | [个人学习档案](数学软件个人学习档案/05-过程记录/课程计划/个人学习档案.md)、每周笔记、案例、错误和验收记录 |
+
+LaTeX 使用 [网页版 TeXbrain](https://tex.vanabel.cn/) 在浏览器里编译。`.tex` 保存到 `03-LaTeX/`，PDF 放到对应的展示笔记下。编译步骤和排错记在 Obsidian。
 
 第 1 周的构造和预览见 [验收说明](数学软件个人学习档案/05-过程记录/成果/第01周/验收说明.md)。笔记用相对链接引用源文件，目录要求见 [Issue #13](https://github.com/POXwhy123/math_software_work/issues/13)。
 

@@ -1,6 +1,6 @@
 {
   "version": "week01-v2-layout",
-  "created_at": "2026-11-17T15:19:01+08:00",
+  "created_at": "2026-11-17T15:23:19+08:00",
   "scope": "Vault snapshot for Week 01. Weeks 02-11 contain scaffolding only.",
   "manifest_excludes_itself": true,
   "files": [
@@ -16,8 +16,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 1615,
-      "sha256": "233af540c5885b1f945bb8ea542f7f4f11bd7010aa92d071ffc9158231ca5974"
+      "bytes": 1838,
+      "sha256": "680b9254162a33c0218e542c47b9eaf238263baa213fd9871fb8d5706809f6dd"
     },
     {
       "path": "tools/check_environment.py",
@@ -121,8 +121,8 @@
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/00-首页.md",
-      "bytes": 2526,
-      "sha256": "d1f7bdce3b8e97e7a91363c335cd0919fcd5ae4a1387874d60c8c2cb7fb46cc4"
+      "bytes": 2517,
+      "sha256": "a24a1440ecf900bb225c0582e324fc0a44afbaad518ab9c3d2d0b6e96a035858"
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/专题知识/GeoGebra.md",
@@ -131,8 +131,8 @@
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/专题知识/LaTeX.md",
-      "bytes": 637,
-      "sha256": "83b4e5135c62edf3fbbf9cfa7311c0f5a190a8014b0d959a6873c9f116977d4d"
+      "bytes": 898,
+      "sha256": "2f9dc18dd03e4ad34c922e11b5591f08da2d40a0d4fe59ca6683cc87a3ce71eb"
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/成果/README.md",
@@ -142,7 +142,7 @@
     {
       "path": "数学软件个人学习档案/05-过程记录/成果/第01周/README.md",
       "bytes": 1427,
-      "sha256": "22eb6e83f148f0f08cbc5dd985a0a0b50ee0d7a422e1da3d006b93051669a896"
+      "sha256": "c40a2ffdacffa241aedd99e108c5b8501dc6a89842af442b884948480b2d65f5"
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/成果/第01周/构造命令.md",
@@ -166,8 +166,8 @@
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/成果/第01周/验收说明.md",
-      "bytes": 4764,
-      "sha256": "e8b2afac44a01a9e00d82b8313b2937bf1ba63b184fb4c9364e211c7a4e3ee19"
+      "bytes": 4817,
+      "sha256": "bbc446b2f1d00b22d5cce0db50dfbebab6d0e862e0b122b163da034903c50de6"
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/成果/第02周/README.md",
@@ -226,8 +226,8 @@
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/每周笔记/第01周.md",
-      "bytes": 3634,
-      "sha256": "816021160ce4a274076fe6f1daac16c31e95d429d97174ebfb61140ac10936ca"
+      "bytes": 3621,
+      "sha256": "75f0bb47db79030c86f9445de5ed7fc85a6488fdd6074de78a0620f2876d67de"
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/每周笔记/第02周.md",
@@ -276,8 +276,8 @@
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/每周笔记/第11周.md",
-      "bytes": 1742,
-      "sha256": "ac8b32c5fc2d8a14fd40fb2d8c62846bcd2a15ef816c2f87d4000f2eeb57bea0"
+      "bytes": 1819,
+      "sha256": "58d1835992bebb93a52028a40567ee4b42faa0c995ad9f4ee014bdb434f437d7"
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/笔记模板/README.md",
@@ -306,18 +306,18 @@
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/课程计划/个人学习档案.md",
-      "bytes": 1803,
-      "sha256": "c14a06c1f40bea4e86373f1cd98fe3fc4e4a43f984ca1c30c93f8570a939faf9"
+      "bytes": 1814,
+      "sha256": "3e833bd2f4897149c7b7728f4d720580d95db4fec8d0849cd8d7f64d88231f56"
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/课程计划/本地环境检查.md",
-      "bytes": 7185,
-      "sha256": "e0ce768cd11818c0adef63478934c04f45513055d36c3d56d9558cadd9ca66f0"
+      "bytes": 6482,
+      "sha256": "12a36dcd8902886d775c010df207ac4a24b5cecbf30c3e1182c353d4e872afa2"
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/课程计划/第01-11周任务与验收清单.md",
-      "bytes": 9836,
-      "sha256": "a4a049c053e26d9e53c81f6338be0d8536a70200e57cc50ab15c68d616b8fdac"
+      "bytes": 9927,
+      "sha256": "94698e7a50951e85db22b3137b71763a137b7dbc26103e175e8b98d0b7b93f95"
     },
     {
       "path": "数学软件个人学习档案/05-过程记录/课程计划/课程来源.md",
