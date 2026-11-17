@@ -1,0 +1,133 @@
+{
+  "checkedAt": "2026-11-17T07:59:07.576Z",
+  "source": "数学软件个人学习档案/01-GeoGebra/第02周/第2周-三角形四心.ggb",
+  "sourceSha256": "304fb1748fb13da055c18f451887dc4c438a0cad2be1096b0a0835715a3f8106",
+  "before": {
+    "name": "reloaded_from_disk",
+    "shape": "acute",
+    "twiceArea": 50,
+    "points": {
+      "A": [
+        -5,
+        -2
+      ],
+      "B": [
+        5,
+        -2
+      ],
+      "C": [
+        -2,
+        3
+      ],
+      "G": [
+        -0.6666666666666666,
+        -0.3333333333333333
+      ],
+      "H": [
+        -2,
+        2.2
+      ],
+      "I": [
+        -1.3856866860986639,
+        0.04638942491071762
+      ],
+      "O": [
+        0,
+        -1.6
+      ]
+    },
+    "sideDistances": [
+      2.0463894249107177,
+      2.046389424910717,
+      2.0463894249107177
+    ],
+    "vertexDistances": [
+      5.015974481593782,
+      5.015974481593782,
+      5.01597448159378
+    ],
+    "errors": {
+      "centroid": 0,
+      "medianIncidence": 2.550699770927658e-16,
+      "altitudeIncidence": 0,
+      "incenter": 2.514331927660129e-16,
+      "incenterSideDistances": 8.881784197001252e-16,
+      "inradius": 4.440892098500626e-16,
+      "circumcenterVertexDistances": 1.7763568394002505e-15
+    },
+    "independent": {
+      "A": true,
+      "B": true,
+      "C": true,
+      "G": false,
+      "H": false,
+      "I": false,
+      "O": false
+    },
+    "passed": true
+  },
+  "after": {
+    "name": "drag_A_after_disk_reload",
+    "shape": "acute",
+    "twiceArea": 45.08441064638782,
+    "points": {
+      "A": [
+        -4.005703422053232,
+        -2.007984790874524
+      ],
+      "B": [
+        5,
+        -2
+      ],
+      "C": [
+        -2,
+        3
+      ],
+      "G": [
+        -0.335234474017744,
+        -0.3359949302915081
+      ],
+      "H": [
+        -1.9980518166177519,
+        0.8027274567351492
+      ],
+      "I": [
+        -1.1084028858632267,
+        -0.045455989064664776
+      ],
+      "O": [
+        0.49617419728225964,
+        -0.9053561238048364
+      ]
+    },
+    "sideDistances": [
+      1.9599591772429126,
+      1.959959177242913,
+      1.9599591772429128
+    ],
+    "vertexDistances": [
+      4.634942510637826,
+      4.634942510637826,
+      4.634942510637826
+    ],
+    "errors": {
+      "centroid": 2.220446049250313e-16,
+      "medianIncidence": 4.237967779836925e-16,
+      "altitudeIncidence": 8.259891525868517e-16,
+      "incenter": 6.245004513516506e-17,
+      "incenterSideDistances": 4.440892098500626e-16,
+      "inradius": 1.1102230246251565e-15,
+      "circumcenterVertexDistances": 0
+    },
+    "independent": {
+      "A": true,
+      "B": true,
+      "C": true,
+      "G": false,
+      "H": false,
+      "I": false,
+      "O": false
+    },
+    "passed": true
+  }
+}

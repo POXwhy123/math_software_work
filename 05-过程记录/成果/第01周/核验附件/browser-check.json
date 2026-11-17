@@ -1,0 +1,519 @@
+{
+  "checked_at": "2026-11-12T06:28:12.695Z",
+  "app": "GeoGebra Classic web",
+  "url": "https://www.geogebra.org/classic",
+  "api_version": "5.4.936.0",
+  "viewport": {
+    "width": 1280,
+    "height": 820
+  },
+  "states": [
+    {
+      "case": "initial",
+      "A": [
+        -2,
+        1
+      ],
+      "B": [
+        4,
+        3
+      ],
+      "M": [
+        1,
+        2
+      ],
+      "segment_length": 6.324555320336759,
+      "circle_center": [
+        1,
+        2
+      ],
+      "radius_squared": 10.000000000000002,
+      "circle_matrix": [
+        1,
+        1,
+        -5.000000000000002,
+        0,
+        -1,
+        -2
+      ],
+      "independent": {
+        "A": true,
+        "B": true,
+        "s": false,
+        "M": false,
+        "c": false
+      },
+      "definitions": {
+        "A": "",
+        "B": "",
+        "s": "Segment[A, B]",
+        "M": "Midpoint[A, B]",
+        "c": "Circle[M, A]"
+      },
+      "errors": {
+        "midpoint": 0,
+        "center": 0,
+        "radius_squared": 1.7763568394002505e-15,
+        "segment_length": 0,
+        "circle_A": 1.7763568394002505e-15,
+        "circle_B": 1.7763568394002505e-15
+      },
+      "passed": true
+    },
+    {
+      "case": "mouse_drag_A",
+      "A": [
+        -3,
+        2
+      ],
+      "B": [
+        4,
+        3
+      ],
+      "M": [
+        0.5,
+        2.5
+      ],
+      "segment_length": 7.0710678118654755,
+      "circle_center": [
+        0.5,
+        2.5
+      ],
+      "radius_squared": 12.500000000000002,
+      "circle_matrix": [
+        1,
+        1,
+        -6.000000000000002,
+        0,
+        -0.5,
+        -2.5
+      ],
+      "independent": {
+        "A": true,
+        "B": true,
+        "s": false,
+        "M": false,
+        "c": false
+      },
+      "definitions": {
+        "A": "",
+        "B": "",
+        "s": "Segment[A, B]",
+        "M": "Midpoint[A, B]",
+        "c": "Circle[M, A]"
+      },
+      "errors": {
+        "midpoint": 0,
+        "center": 0,
+        "radius_squared": 1.7763568394002505e-15,
+        "segment_length": 0,
+        "circle_A": 1.7763568394002505e-15,
+        "circle_B": 1.7763568394002505e-15
+      },
+      "passed": true
+    },
+    {
+      "case": "mouse_drag_B",
+      "A": [
+        -3,
+        2
+      ],
+      "B": [
+        3,
+        -1
+      ],
+      "M": [
+        0,
+        0.5
+      ],
+      "segment_length": 6.708203932499369,
+      "circle_center": [
+        0,
+        0.5
+      ],
+      "radius_squared": 11.250000000000002,
+      "circle_matrix": [
+        1,
+        1,
+        -11.000000000000002,
+        0,
+        0,
+        -0.5
+      ],
+      "independent": {
+        "A": true,
+        "B": true,
+        "s": false,
+        "M": false,
+        "c": false
+      },
+      "definitions": {
+        "A": "",
+        "B": "",
+        "s": "Segment[A, B]",
+        "M": "Midpoint[A, B]",
+        "c": "Circle[M, A]"
+      },
+      "errors": {
+        "midpoint": 0,
+        "center": 0,
+        "radius_squared": 1.7763568394002505e-15,
+        "segment_length": 0,
+        "circle_A": 1.7763568394002505e-15,
+        "circle_B": 1.7763568394002505e-15
+      },
+      "passed": true
+    },
+    {
+      "case": "horizontal",
+      "A": [
+        0,
+        0
+      ],
+      "B": [
+        4,
+        0
+      ],
+      "M": [
+        2,
+        0
+      ],
+      "segment_length": 4,
+      "circle_center": [
+        2,
+        0
+      ],
+      "radius_squared": 4,
+      "circle_matrix": [
+        1,
+        1,
+        0,
+        0,
+        -2,
+        0
+      ],
+      "independent": {
+        "A": true,
+        "B": true,
+        "s": false,
+        "M": false,
+        "c": false
+      },
+      "definitions": {
+        "A": "",
+        "B": "",
+        "s": "Segment[A, B]",
+        "M": "Midpoint[A, B]",
+        "c": "Circle[M, A]"
+      },
+      "errors": {
+        "midpoint": 0,
+        "center": 0,
+        "radius_squared": 0,
+        "segment_length": 0,
+        "circle_A": 0,
+        "circle_B": 0
+      },
+      "passed": true
+    },
+    {
+      "case": "vertical",
+      "A": [
+        1,
+        -2
+      ],
+      "B": [
+        1,
+        4
+      ],
+      "M": [
+        1,
+        1
+      ],
+      "segment_length": 6,
+      "circle_center": [
+        1,
+        1
+      ],
+      "radius_squared": 9,
+      "circle_matrix": [
+        1,
+        1,
+        -7,
+        0,
+        -1,
+        -1
+      ],
+      "independent": {
+        "A": true,
+        "B": true,
+        "s": false,
+        "M": false,
+        "c": false
+      },
+      "definitions": {
+        "A": "",
+        "B": "",
+        "s": "Segment[A, B]",
+        "M": "Midpoint[A, B]",
+        "c": "Circle[M, A]"
+      },
+      "errors": {
+        "midpoint": 0,
+        "center": 0,
+        "radius_squared": 0,
+        "segment_length": 0,
+        "circle_A": 0,
+        "circle_B": 0
+      },
+      "passed": true
+    },
+    {
+      "case": "decimal",
+      "A": [
+        -1.25,
+        2.5
+      ],
+      "B": [
+        3.75,
+        -0.5
+      ],
+      "M": [
+        1.25,
+        1
+      ],
+      "segment_length": 5.8309518948453,
+      "circle_center": [
+        1.25,
+        1
+      ],
+      "radius_squared": 8.499999999999998,
+      "circle_matrix": [
+        1,
+        1,
+        -5.937499999999998,
+        0,
+        -1.25,
+        -1
+      ],
+      "independent": {
+        "A": true,
+        "B": true,
+        "s": false,
+        "M": false,
+        "c": false
+      },
+      "definitions": {
+        "A": "",
+        "B": "",
+        "s": "Segment[A, B]",
+        "M": "Midpoint[A, B]",
+        "c": "Circle[M, A]"
+      },
+      "errors": {
+        "midpoint": 0,
+        "center": 0,
+        "radius_squared": 1.7763568394002505e-15,
+        "segment_length": 0,
+        "circle_A": 1.7763568394002505e-15,
+        "circle_B": 1.7763568394002505e-15
+      },
+      "passed": true
+    },
+    {
+      "case": "exported_bytes_reloaded",
+      "A": [
+        -2,
+        1
+      ],
+      "B": [
+        4,
+        3
+      ],
+      "M": [
+        1,
+        2
+      ],
+      "segment_length": 6.324555320336759,
+      "circle_center": [
+        1,
+        2
+      ],
+      "radius_squared": 10.000000000000002,
+      "circle_matrix": [
+        1,
+        1,
+        -5.000000000000002,
+        0,
+        -1,
+        -2
+      ],
+      "independent": {
+        "A": true,
+        "B": true,
+        "s": false,
+        "M": false,
+        "c": false
+      },
+      "definitions": {
+        "A": "",
+        "B": "",
+        "s": "Segment[A, B]",
+        "M": "Midpoint[A, B]",
+        "c": "Circle[M, A]"
+      },
+      "errors": {
+        "midpoint": 0,
+        "center": 0,
+        "radius_squared": 1.7763568394002505e-15,
+        "segment_length": 0,
+        "circle_A": 1.7763568394002505e-15,
+        "circle_B": 1.7763568394002505e-15
+      },
+      "passed": true
+    }
+  ],
+  "mouse_drags": [
+    {
+      "name": "A",
+      "target": [
+        -3,
+        2
+      ],
+      "from": {
+        "x": 611,
+        "y": 510.8333333333333
+      },
+      "to": {
+        "x": 536.6666666666666,
+        "y": 436.49999999999994
+      },
+      "moved": true,
+      "target_error": 0,
+      "state": {
+        "A": [
+          -3,
+          2
+        ],
+        "B": [
+          4,
+          3
+        ],
+        "M": [
+          0.5,
+          2.5
+        ],
+        "segment_length": 7.0710678118654755,
+        "circle_center": [
+          0.5,
+          2.5
+        ],
+        "radius_squared": 12.500000000000002,
+        "circle_matrix": [
+          1,
+          1,
+          -6.000000000000002,
+          0,
+          -0.5,
+          -2.5
+        ],
+        "independent": {
+          "A": true,
+          "B": true,
+          "s": false,
+          "M": false,
+          "c": false
+        },
+        "definitions": {
+          "A": "",
+          "B": "",
+          "s": "Segment[A, B]",
+          "M": "Midpoint[A, B]",
+          "c": "Circle[M, A]"
+        },
+        "errors": {
+          "midpoint": 0,
+          "center": 0,
+          "radius_squared": 1.7763568394002505e-15,
+          "segment_length": 0,
+          "circle_A": 1.7763568394002505e-15,
+          "circle_B": 1.7763568394002505e-15
+        },
+        "passed": true
+      }
+    },
+    {
+      "name": "B",
+      "target": [
+        3,
+        -1
+      ],
+      "from": {
+        "x": 1057,
+        "y": 362.16666666666663
+      },
+      "to": {
+        "x": 982.6666666666666,
+        "y": 659.5
+      },
+      "moved": true,
+      "target_error": 0,
+      "state": {
+        "A": [
+          -3,
+          2
+        ],
+        "B": [
+          3,
+          -1
+        ],
+        "M": [
+          0,
+          0.5
+        ],
+        "segment_length": 6.708203932499369,
+        "circle_center": [
+          0,
+          0.5
+        ],
+        "radius_squared": 11.250000000000002,
+        "circle_matrix": [
+          1,
+          1,
+          -11.000000000000002,
+          0,
+          0,
+          -0.5
+        ],
+        "independent": {
+          "A": true,
+          "B": true,
+          "s": false,
+          "M": false,
+          "c": false
+        },
+        "definitions": {
+          "A": "",
+          "B": "",
+          "s": "Segment[A, B]",
+          "M": "Midpoint[A, B]",
+          "c": "Circle[M, A]"
+        },
+        "errors": {
+          "midpoint": 0,
+          "center": 0,
+          "radius_squared": 1.7763568394002505e-15,
+          "segment_length": 0,
+          "circle_A": 1.7763568394002505e-15,
+          "circle_B": 1.7763568394002505e-15
+        },
+        "passed": true
+      }
+    }
+  ],
+  "notes": [
+    "The native .ggb is exported by GeoGebra, not manually assembled XML.",
+    "No desktop app or Obsidian GUI validation is claimed."
+  ],
+  "all_passed": true
+}

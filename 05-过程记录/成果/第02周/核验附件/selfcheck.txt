@@ -1,0 +1,4 @@
+PASS: native .ggb, all four construction chains, four display controls and six previews
+PASS: eight geometry states, three vertex drags, four checkbox clicks; maximum residual 1.77636e-15
+PASS: disk reload and mouse drag in a fresh browser; evidence matches the source SHA-256
+Source SHA-256: 304fb1748fb13da055c18f451887dc4c438a0cad2be1096b0a0835715a3f8106
