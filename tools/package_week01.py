@@ -8,7 +8,7 @@ import zipfile
 from course_paths import ROOT, WEEK01_EVIDENCE
 from validate_week01 import validate
 
-REVIEW_VERSION='week01-v2-startup'
+REVIEW_VERSION='week01-v2-notes'
 
 
 def main():
