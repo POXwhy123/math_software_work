@@ -1,7 +1,8 @@
 // Run on the five-object Week 01 draft in an isolated GeoGebra Classic session.
 // Writes only local Week 01 draft artifacts. No sign-in, cloud save or GitHub writes.
 async (page) => {
-  const root = '06-课程成果/第01周/';
+  const vault = '数学软件个人学习档案/';
+  const evidencePath = '05-过程记录/成果/第01周/核验附件/browser-check.json';
   await page.setViewportSize({width:1280, height:820});
   await page.waitForFunction(() => window.ggbApplet && ggbApplet.getObjectNumber() >= 5);
   await page.evaluate(() => {
@@ -40,11 +41,11 @@ async (page) => {
       const a=document.createElement('a');a.href=url;a.download=filename;document.body.append(a);a.click();a.remove();
     },{base64,filename,mime});
     const download=await pending;
-    await download.saveAs(root+filename);
+    await download.saveAs(vault+filename);
   };
   const saved=await page.evaluate(()=>ggbApplet.getBase64());
-  await downloadData(saved,'source/week01-basic-objects.ggb','application/vnd.geogebra.file');
-  await downloadData(await page.evaluate(()=>ggbApplet.getPNGBase64(1,false,96)),'output/week01-diagram.png','image/png');
+  await downloadData(saved,'01-GeoGebra/第01周/week01-basic-objects.ggb','application/vnd.geogebra.file');
+  await downloadData(await page.evaluate(()=>ggbApplet.getPNGBase64(1,false,96)),'04-展示材料/第01周/图片/week01-diagram.png','image/png');
   for(const step of [{name:'A',target:[-3,2],screenshot:'week01-drag-A.png'},{name:'B',target:[3,-1],screenshot:'week01-drag-B.png'}]) {
     const coords=await page.evaluate(({name,target})=>{
       const g=ggbApplet,v=JSON.parse(g.getViewProperties(1));
@@ -85,6 +86,6 @@ async (page) => {
   },saved);
   await page.screenshot({path:'output/playwright/week01-reopened.png'});
   const evidence=await page.evaluate(()=>btoa(unescape(encodeURIComponent(JSON.stringify(window.week01Evidence,null,2)))));
-  await downloadData(evidence,'evidence/browser-check.json','application/json');
+  await downloadData(evidence,evidencePath,'application/json');
   return await page.evaluate(()=>({states:week01Evidence.states.length,drags:week01Evidence.mouse_drags.length,all_passed:week01Evidence.all_passed,version:week01Evidence.api_version}));
 }

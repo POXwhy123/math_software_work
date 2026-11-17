@@ -3,19 +3,17 @@ import argparse
 import hashlib
 import json
 import math
-from pathlib import Path
 import struct
 import sys
 import xml.etree.ElementTree as ET
 import zipfile
 
-ROOT = Path(__file__).resolve().parents[1]
-WEEK = ROOT / '06-课程成果' / '第01周'
+from course_paths import WEEK01_EVIDENCE, WEEK01_PREVIEWS, WEEK01_SOURCE
 
 
 def validate():
     lines=[]
-    source=WEEK/'source'/'week01-basic-objects.ggb'
+    source=WEEK01_SOURCE
     with zipfile.ZipFile(source) as archive:
         assert archive.testzip() is None, 'Corrupt .ggb ZIP entry'
         xml=ET.fromstring(archive.read('geogebra.xml'))
@@ -34,7 +32,7 @@ def validate():
             assert actual==expected, f'Wrong saved coordinates: {label}'
     lines.append('PASS: native .ggb ZIP CRC, five objects, construction dependencies and initial coordinates')
     sha=hashlib.sha256(source.read_bytes()).hexdigest()
-    evidence=json.loads((WEEK/'evidence'/'browser-check.json').read_text(encoding='utf-8'))
+    evidence=json.loads((WEEK01_EVIDENCE/'browser-check.json').read_text(encoding='utf-8'))
     cases={s['case'] for s in evidence['states']}
     assert cases=={'initial','mouse_drag_A','mouse_drag_B','horizontal','vertical','decimal','exported_bytes_reloaded'}
     assert len(evidence['states'])==7 and evidence['all_passed'] is True
@@ -53,12 +51,12 @@ def validate():
     for drag in evidence['mouse_drags']:
         assert drag['moved'] is True and drag['target_error']<0.15
     lines.append(f'PASS: seven recorded browser states and two real mouse drags; maximum numerical residual {max_error:.17g}')
-    disk=json.loads((WEEK/'evidence'/'disk-reopen-check.json').read_text(encoding='utf-8'))
+    disk=json.loads((WEEK01_EVIDENCE/'disk-reopen-check.json').read_text(encoding='utf-8'))
     assert disk['passed'] is True and disk['source_sha256']==sha
     assert disk['initial']['A']==[-2,1] and disk['initial']['M']==[1,2]
     assert disk['drag']['after']['A']==[-3,2] and disk['drag']['after']['M']==[0.5,2.5]
     lines.append('PASS: fresh-session disk reload evidence matches the current source SHA-256 and expected drag result')
-    pngs=sorted((WEEK/'output').glob('*.png'))
+    pngs=sorted(WEEK01_PREVIEWS.glob('*.png'))
     assert len(pngs)>=6, 'Missing previews'
     for png in pngs:
         header=png.read_bytes()[:24]
@@ -67,7 +65,7 @@ def validate():
         assert width>100 and height>100
     lines.append(f'PASS: {len(pngs)} PNG files have valid signatures and nontrivial dimensions (visual review is separate)')
     lines.append('Source SHA-256: '+sha)
-    lines.append('Limits: checks stored evidence, not a new browser execution; desktop GeoGebra and Obsidian GUI remain manual.')
+    lines.append('Scope: checks saved artifacts and browser evidence. See the review note for app checks.')
     lines.append('RESULT: PASS.')
     return '\n'.join(lines)+'\n'
 
@@ -82,7 +80,7 @@ def main():
         print('RESULT: FAIL:',str(exc))
         return 1
     if args.write_report:
-        (WEEK/'evidence'/'selfcheck.txt').write_text(report,encoding='utf-8',newline='\n')
+        (WEEK01_EVIDENCE/'selfcheck.txt').write_text(report,encoding='utf-8',newline='\n')
     print(report,end='')
     return 0
 

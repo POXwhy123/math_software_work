@@ -2,17 +2,14 @@
 import base64
 import hashlib
 import json
-from pathlib import Path
 import shutil
 import subprocess
 
-ROOT = Path(__file__).resolve().parents[1]
-WEEK = ROOT / '06-课程成果' / '第01周'
-SOURCE = WEEK / 'source' / 'week01-basic-objects.ggb'
+from course_paths import ROOT, VAULT, WEEK01_EVIDENCE, WEEK01_SOURCE
 
 
 def main():
-    data = SOURCE.read_bytes()
+    data = WEEK01_SOURCE.read_bytes()
     encoded = base64.b64encode(data).decode('ascii')
     sha = hashlib.sha256(data).hexdigest()
     # The file is passed to the browser locally over Playwright; no cloud save or HTTP upload.
@@ -25,7 +22,7 @@ def main():
         const read=()=>({A:[g.getXcoord('A'),g.getYcoord('A')],B:[g.getXcoord('B'),g.getYcoord('B')],M:[g.getXcoord('M'),g.getYcoord('M')],s:g.getValue('s'),circle:g.getValueString('c',false),definitions:{s:g.getCommandString('s',false),M:g.getCommandString('M',false),c:g.getCommandString('c',false)},independent:{A:g.isIndependent('A'),B:g.isIndependent('B'),M:g.isIndependent('M'),s:g.isIndependent('s'),c:g.isIndependent('c')}});
         const initial=read();
         if(JSON.stringify(initial.A)!=='[-2,1]'||JSON.stringify(initial.B)!=='[4,3]'||JSON.stringify(initial.M)!=='[1,2]') throw new Error('Unexpected disk file coordinates');
-        const report={checked_at:new Date().toISOString(),source:'source/week01-basic-objects.ggb',source_sha256:sha256,app:'GeoGebra Classic web',api_version:g.getVersion(),method:'Fresh browser session; read .ggb from disk; load via official setBase64 API',initial};
+        const report={checked_at:new Date().toISOString(),source:__SOURCE__,source_sha256:sha256,app:'GeoGebra Classic web',api_version:g.getVersion(),method:'Fresh browser session; read .ggb from disk; load via official setBase64 API',initial};
         g.setMode(0);
         const v=JSON.parse(g.getViewProperties(1));
         const screen=(x,y)=>({x:v.left+(x-v.xMin)/v.invXscale,y:v.top+v.height-(y-v.yMin)/v.invYscale});
@@ -55,11 +52,13 @@ def main():
       await page.evaluate(report=>{
         const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(report,null,2)],{type:'application/json'}));a.download='disk-reopen-check.json';document.body.append(a);a.click();a.remove();
       },report);
-      await (await pending).saveAs('06-课程成果/第01周/evidence/disk-reopen-check.json');
+      await (await pending).saveAs('.local/checks/week01-disk-reopen.json');
       return {passed:report.passed,source_sha256:report.source_sha256,api_version:report.api_version};
-    }'''.replace('__BASE64__', json.dumps(encoded)).replace('__SHA__',json.dumps(sha))
+    }'''.replace('__BASE64__', json.dumps(encoded)).replace('__SHA__', json.dumps(sha)).replace('__SOURCE__', json.dumps(WEEK01_SOURCE.relative_to(VAULT).as_posix()))
     local = ROOT / '.local' / 'checks'
     local.mkdir(parents=True, exist_ok=True)
+    evidence = local / 'week01-disk-reopen.json'
+    evidence.unlink(missing_ok=True)
     code_file = local / 'week01-reopen.js'
     code_file.write_text(script, encoding='utf-8')
     npx = shutil.which('npx.cmd') or shutil.which('npx')
@@ -69,12 +68,12 @@ def main():
     result=subprocess.run(command,cwd=ROOT,capture_output=True,text=True,encoding='utf-8',errors='replace',timeout=120)
     (local/'week01-reopen-cli.txt').write_text(result.stdout+result.stderr,encoding='utf-8')
     # CLI errors can be printed while its process still returns 0. Require the resulting evidence.
-    evidence=WEEK/'evidence'/'disk-reopen-check.json'
     if result.returncode or not evidence.exists():
         raise SystemExit('Browser reload failed; see .local/checks/week01-reopen-cli.txt')
     report=json.loads(evidence.read_text(encoding='utf-8'))
     if not report['passed'] or report['source_sha256']!=sha:
         raise SystemExit('Browser evidence does not match current .ggb')
+    (WEEK01_EVIDENCE / 'disk-reopen-check.json').write_bytes(evidence.read_bytes())
     print('Disk .ggb reload and real mouse drag: PASS')
     print('SHA256:',sha)
 

@@ -2,15 +2,13 @@
 from datetime import datetime, timezone, timedelta
 import hashlib
 import json
-from pathlib import Path
 import subprocess
 import zipfile
 
+from course_paths import ROOT, WEEK01_EVIDENCE
 from validate_week01 import validate
 
-ROOT=Path(__file__).resolve().parents[1]
-WEEK=ROOT/'06-课程成果'/'第01周'
-REVIEW_VERSION='week01-v2'
+REVIEW_VERSION='week01-v2-layout'
 
 
 def main():
@@ -18,7 +16,7 @@ def main():
     validate()
     result=subprocess.run(['git','ls-files','--cached','--others','--exclude-standard','-z'],cwd=ROOT,capture_output=True,check=True)
     paths=sorted(set(p.decode('utf-8') for p in result.stdout.split(b'\0') if p))
-    manifest_path=WEEK/'evidence'/'file-manifest.json'
+    manifest_path=WEEK01_EVIDENCE/'file-manifest.json'
     manifest_name=manifest_path.relative_to(ROOT).as_posix()
     paths=[p for p in paths if p!=manifest_name and (ROOT/p).is_file()]
     assert all(not p.startswith(('.git/','.local/','.playwright/','.playwright-cli/','output/playwright/')) for p in paths)

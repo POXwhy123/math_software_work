@@ -1,8 +1,8 @@
 # Obsidian device state and third-party plugins
-.obsidian/workspace*.json
-.obsidian/cache/
-.obsidian/plugins/
-.obsidian/appearance.json
+**/.obsidian/workspace*.json
+**/.obsidian/cache/
+**/.obsidian/plugins/
+**/.obsidian/appearance.json
 .trash/
 # Machine-specific checks, credentials and temporary files
 .local/
